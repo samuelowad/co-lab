@@ -4,7 +4,7 @@
     "description": "Video collaboration website",
     "main": "app.js",
     "scripts": {
-        "start": "nodemon ./bin/www",
+        "start": "node ./bin/www",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "OWAD",
