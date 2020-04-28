@@ -1,0 +1,22 @@
+<form class="form-signin" action="/register" method="post">
+{{#each errorMessage}}
+<div class="alert alert-danger">
+    {{this.msg}}
+</div>
+{{/each}}
+<h2 class="form-signin-heading text-center">New Account</h2>
+<br>
+
+<input type="text" name="name"class="form-control" placeholder="Name" required="true" autofocus="">
+<br>
+
+<input type="email" name="email"class="form-control" placeholder="email" required="true" autofocus="">
+<br>
+
+<input type="password"name="password"class="form-control" placeholder="password" required="true">
+<br>
+
+<input type="password"name="conformPassword"class="form-control" placeholder="Confirm Password" required="true">
+<br>
+<button type="submit" class=" btn btn-primary btn-block btn-lg">Signup</button>
+</form>
